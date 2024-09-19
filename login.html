@@ -10,7 +10,7 @@
 <body>
     <section class="move">
         <div class="col-9">
-            <form id="form_login">
+            <form id="form_login" onsubmit="validarLogin(event)">
                 <div class="container">
                     <div class="row">
                       <div class="col-4">
@@ -26,9 +26,7 @@
                         <br>
                         <input type="password" name="contraseña" id="contraseña" placeholder="Contraseña">
                         <br>
-                        <button id="submit">
-                          <a href="landingpage.html">Iniciar sesión</a>
-                        </button>
+                        <button id="submit">Iniciar sesión</button>
                         <br>
                         <h3>¿No tienes cuenta?
                             <a href="registro.html">Registrate</a>

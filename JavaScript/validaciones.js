@@ -1,18 +1,30 @@
-document.addEventListener("DOMContentLoaded", function() {
-    document.getElementById("form_login").addEventListener('submit', validarFormulario); 
-  });
-  
-  function validarFormulario(evento) {
-    evento.preventDefault();
-    var usuario = document.getElementById('usuario').value;
-    if(usuario.length == 0) {
-      alert('No has escrito nada en el usuario');
-      return;
+function validarLogin(event) {
+    event.preventDefault(); // Evita que el formulario se envíe de manera predeterminada
+
+    // Obtener los valores de los campos
+    let usuario = document.getElementById('nombre_usuario').value;
+    let contraseña = document.getElementById('contraseña').value;
+
+    // Validación de campos vacíos
+    if (usuario.trim() === "") {
+        alert("El campo 'Usuario' es obligatorio.");
+        return false;
     }
-    var clave = document.getElementById('contraseña').value;
-    if (clave.length < 6) {
-      alert('La clave no es válida');
-      return;
+    if (contraseña.trim() === "") {
+        alert("El campo 'Contraseña' es obligatorio.");
+        return false;
     }
-    this.submit();
+
+    // Validación de credenciales simples (esto se puede mejorar con autenticación de servidor)
+    // Simulación de datos de usuario correcto
+    let usuarioCorrecto = "admin";
+    let contraseñaCorrecta = "1234";
+
+    if (usuario === usuarioCorrecto && contraseña === contraseñaCorrecta) {
+        alert("Inicio de sesión exitoso");
+        // Redirigir a landing page
+        window.location.href = "landingpage.html";
+    } else {
+        alert("Usuario o contraseña incorrectos.");
+    }
 }
