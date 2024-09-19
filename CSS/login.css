@@ -49,6 +49,12 @@ button:hover{
     background-color: #402F2F44;
 }
 
+.col-4{
+    display: flex;
+    flex-direction: column;
+    margin: 4%;
+}
+
 .col-6{
     color:#402F2F;
     display: flex;

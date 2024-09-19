@@ -9,7 +9,7 @@
 </head>
 <body>
     
-    <form action="">
+    <form id="miFormulario" onsubmit="validarFormulario(event)">
         <div class="registro">
             <h3>Registro de sesión</h3>
             <div class="row align-items-center">
@@ -45,7 +45,7 @@
                 </div>
                 <div class="final">
                     <br>
-                    <button><a href="landingpage.html">Aceptar</a></button>
+                    <button type="submit">Aceptar</button>
                     <br>
                     <button><a href="login.html">Cancelar</a></button>
                     <br>
@@ -56,5 +56,6 @@
             </div>
         </div>
     </form>
+    <script src="JavaScript/registro_validar.js"></script>
 </body>
 </html>
