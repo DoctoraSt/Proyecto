@@ -64,16 +64,3 @@ button:hover{
     justify-content: center;
     margin: 10%;
 }
-
-
-.pie{
-    color: #402F2F;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    display: flex;
-    justify-content: center;
-    flex-direction: row;
-}
-
-.pie2{
-    margin: 1%;
-}

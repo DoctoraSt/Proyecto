@@ -30,14 +30,6 @@ p{
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-.pie{
-    color: #FFFF;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    display: flex;
-    justify-content: center;
-    flex-direction: row;
-}
-
 .final{
   display: flex;
   justify-content: center;
@@ -47,7 +39,7 @@ p{
 
 button{
   color: #FFFF;
-  background-color: #D989B5;
+  background-color: #F294A5;
   border-radius: 10px;
   border-color: none;
 }
