@@ -1,0 +1,60 @@
+body{
+    background-color: #F2F2F2;
+    color: #402F2F;
+}
+
+h1{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+p{
+    color: #402F2F;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}
+
+.container{
+    box-shadow: 3px 3px 3px 3px #402F2F;
+    padding: 3%;
+    border-radius: 10px;
+}
+.carrousel {
+    display: grid;
+    grid-auto-flow: column;
+    scroll-behavior: smooth;
+    gap: 4.5rem;
+    overflow-x: hidden; /* Cambiado a hidden para ocultar la barra de scroll */
+    overscroll-behavior-x: contain;
+    scroll-snap-type: x mandatory;
+    scrollbar-width: none;
+    animation: scroll 15s linear infinite; /* Animación de desplazamiento */
+}
+
+.carrousel::-webkit-scrollbar {
+    display: none;
+}
+
+@keyframes scroll {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
+/* Asegurarse de que las tarjetas tengan un tamaño adecuado */
+.card {
+    min-width: 100%;
+    scroll-snap-align: start;
+    background-color: #f4f4f4;
+    padding: 2rem;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    text-align: center;
+}
+
+.Inicio{
+    text-align: center;
+}
