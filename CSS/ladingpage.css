@@ -8,6 +8,10 @@ h1{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+h2{
+    text-align: center;
+}
+
 p{
     color: #402F2F;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -57,6 +61,21 @@ p{
 
 .Inicio{
     text-align: center;
+}
+
+.row{
+    justify-content: space-around;
+}
+
+.temas{
+    display: flex;
+    box-shadow: 3px 3px 3px 3px #402F2F;
+    justify-content: space-around;
+    height: 30px;
+}
+
+.temas:hover{
+    background-color: #f294a574;
 }
 
 footer{
