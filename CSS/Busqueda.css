@@ -41,3 +41,22 @@ select{
     border-radius: 50px;
     height: 20px;
 }
+
+.cursos{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 2rem; /* Espacio entre las tarjetas, aumentado para mayor separación */
+    margin-top: 2rem; /* Espacio superior */
+    padding: 1rem; /* Espacio interno */
+    box-shadow: 5px 5px 5px #D989B5;
+}
+
+footer{
+    background-color: #D989B5;
+    color: #402F2F;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
