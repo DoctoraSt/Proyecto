@@ -29,6 +29,7 @@ a:hover{
 
 input{
     border-radius: 10px ;
+    border: none;
 }
 
 label{
@@ -43,6 +44,7 @@ button{
     color: #402F2F;
     background-color: #F294A5;
     border-radius: 10px;
+    border: none;
 }
 
 button:hover{

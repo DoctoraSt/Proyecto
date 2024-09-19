@@ -23,6 +23,8 @@ p{
     padding: 3%;
     border-radius: 10px;
 }
+
+/*Carrusel del inicio*/
 .carrousel {
     display: grid;
     grid-auto-flow: column;
