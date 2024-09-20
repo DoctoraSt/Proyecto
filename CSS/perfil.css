@@ -1,0 +1,38 @@
+body{
+    background-color: #F2F2F2;
+    color: #402F2F;
+}
+
+h1{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h2{
+    text-align: center;
+}
+
+h3{
+    text-align: center;
+}
+
+p{
+    color: #402F2F;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}
+
+.curso{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+footer{
+    background-color: #D989B5;
+    color: #402F2F;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
