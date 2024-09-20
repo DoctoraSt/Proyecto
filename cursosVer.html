@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/bootstrapCSS/bootstrap.min.css">
+    <link rel="stylesheet" href="CSS/cursosVer.css">
+    <link rel="icon" href="Imagenes/brain.png">
+    <title>Ver curso</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-pink">
+        <div class="container-fluid">
+          <img src="Imagenes/brain.png" alt="" width="30" height="30">
+          <a class="navbar-brand" href="#">Mercury</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="landingpage.html">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="perfil.html">Mi perfil</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="login.html">Cerrar sesión</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Cursos
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="Busqueda.html">Generales</a></li>
+                  <li><a class="dropdown-item" href="#">Arte</a></li>
+                  <li><a class="dropdown-item" href="#">Matemáticas</a></li>
+                  <li><a class="dropdown-item" href="#">Programación</a></li>
+                  <li><a class="dropdown-item" href="#">Marketing</a></li>
+                  <li><a class="dropdown-item" href="#">Diseño</a></li>
+                </ul>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Buscar">
+              <button class="btn btn-outline-secondary" type="submit">Buscar</button>
+            </form>
+          </div>
+        </div>
+    </nav>
+
+    <section class="info_curso">
+        <div class="row align-items-center">
+            <div class="col-4">
+                <img src="Imagenes/sql.png" alt="Curso de SQL" width="200" height="100">
+            </div>
+            <div class="col-6">
+                <h3>Introducción a SQL Server</h3>
+                <h5>Categoría: Programación</h5>
+                <p>Curso dedicado al aprendizaje y el manejo de las bases de datos por medio de SQL Server.
+                    Con el uso de las bases de datos, seremos capaces de crear cualquier tipo de almacenamiento o 
+                    conexiones para páginas web o cualquier aplicación.
+                </p>
+            </div>
+    </section>
+
+    <section>
+        <div class="container">
+            <div class="row">
+                <hr class="opZero"><hr class="opZero">
+                <h3 class="subtitulos">Introducción</h3>
+                <div class="col">
+                    <p class="fs-4">
+                        SQL Server es de las bases de datos más conocidas y usadas en el mercado, su lenguaje es simple
+                        y dee fácil aprendizaje.
+                    </p>
+                </div>
+            </div>
+    
+            <div class="row">
+                <hr class="opZero"><hr>
+                <h3 class="subtitulos">Nivel de solo vídeos</h3>
+                <div class="col">
+                    <div class="d-flex justify-content-center">
+                    <video class="w-50" controls>
+                        <source src="IMG/VideoDumie.mp4" type="video/mp4">
+                        Tu navegador no soporta la etiqueta de video.
+                      </video>
+                    </div>
+                </div>
+            </div>    
+    </section>
+    <br>
+    <section>
+        <div class="container">
+            <div class="row">
+                <hr class="opZero"><hr>
+                <h3 class="subtitulos">Contenido en vídeos y texto</h3>
+                <div class="col-11 col-md-6">
+                    <p class="fs-4">
+                        Este es un Nivel con texto y video.
+                        SQL es un lenguaje de computación para trabajar con conjuntos de datos y las relaciones entre ellos. 
+                        Los programas de bases de datos relacionales, como Microsoft Office Access, usan SQL para trabajar con datos.
+                    </p>
+                </div>
+                <div class="col-11 col-md-6 d-flex justify-content-center">
+                    <video class="w-75" controls>
+                        <source src="IMG/VideoDumie2.mp4" type="video/mp4">
+                        Tu navegador no soporta la etiqueta de video.
+                    </video>
+                </div>
+            </div>
+        </div>
+    </section>
+    <br>
+    <div class="d-flex justify-content-center btnDiv"> 
+        <button class="btn btn-outline-secondary">Siguiente nivel / Finalizar curso</button>
+    </div>
+
+    <section class="comentarios">
+        <div class="container mt-4 comentCont justify-content-center">
+            <h4 class="subtitulos">Comentarios de la gente que terminó el curso:</h4>
+            <div class="row centro-vertical">
+            <div class="col-2 text-center">
+                <img src="Imagenes/icon.png" alt="Foto de Perfil" class="foto-perfil" width="100" height="100">
+            </div>
+            <div class="col-9">
+                <div class="comentario">
+                
+                <div class="calificacion">Juan Pérez</div>
+                <div class="calificacion">Calificación: ★★★☆☆</div>
+                
+                <p>Este curso le faltó algo más de info.</p>
+                </div>
+            </div>
+            </div>
+            <hr class="w-75 mx-auto">
+            <div class="row centro-vertical">
+                <div class="col-2 text-center">
+                    <img src="Imagenes/icon.png" alt="Foto de Perfil" class="foto-perfil" width="100" height="100">
+                </div>
+                <div class="col-9">
+                    <div class="comentario">
+                    
+                    <div class="calificacion">Jose Aureliano</div>
+                    <div class="calificacion">Calificación: ★★★★★</div>
+                    
+                    <p>Este curso está muy completo. Recomendadisimo.</p>
+                    </div>
+                </div>
+                </div>
+        </div>
+    </section>
+</body>
+</html>

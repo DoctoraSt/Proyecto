@@ -7,6 +7,15 @@
     box-shadow: 5px 5px 5px 5px #D989B5;
 }
 
+.subtitulos{
+    color: #402F2F;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+hr{
+    color: #402F2F;
+}
+
 .comentarios{
     display: flex;
     justify-content: center;
@@ -15,6 +24,6 @@
     box-shadow: 5px 5px 5px 5px #D989B5;
 }
 
-.comentarios > img{
+img{
     border-radius: 10px;
 }
