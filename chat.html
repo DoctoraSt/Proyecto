@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/bootstrapCSS/bootstrap.min.css">
+    <link rel="stylesheet" href="CSS/chat.css">
+    <title>Mis mensajes</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-pink">
+        <div class="container-fluid">
+          <img src="Imagenes/brain.png" alt="" width="30" height="30">
+          <a class="navbar-brand" href="#">Mercury</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="landingpage.html">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="perfil.html">Mi perfil</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="login.html">Cerrar sesión</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Cursos
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="Busqueda.html">Generales</a></li>
+                  <li><a class="dropdown-item" href="#">Arte</a></li>
+                  <li><a class="dropdown-item" href="#">Matemáticas</a></li>
+                  <li><a class="dropdown-item" href="#">Programación</a></li>
+                  <li><a class="dropdown-item" href="#">Marketing</a></li>
+                  <li><a class="dropdown-item" href="#">Diseño</a></li>
+                </ul>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Buscar">
+              <button class="btn btn-outline-secondary" type="submit">Buscar</button>
+            </form>
+          </div>
+        </div>
+    </nav>
+
+    <div class="card-chat">
+        <form id="chat">
+            <h3 class="col-9">Bandeja de entrada</h3>
+            <div class="container">
+                <div class="row">
+                        <div class="col-3">
+                            <div class="container mt-5">
+                                <form class="d-flex" role="search">
+                                    <input class="form-control me-2 busqueda-input" type="search" placeholder="Buscar chat" aria-label="Search">
+                                    <br>
+                                    <button class="btn btn-outline-secondary" type="submit">Buscar</button>
+                                </form>
+                            </div>
+                            <p class="mensajes">
+                                <img src="Imagenes/icon.png" alt="perfil" class="foto" width="50" height="50" style="border-radius: 10%;">
+                                Chat 1
+                            </p>
+                            <p class="mensajes">
+                                <img src="Imagenes/icon.png" alt="perfil" class="foto" width="50" height="50" style="border-radius: 10%;">
+                                Chat 2
+                            </p>
+                            <p class="mensajes">
+                                <img src="Imagenes/icon.png" alt="perfil" class="foto" width="50" height="50" style="border-radius: 10%;">
+                                Chat 3
+                            </p>
+                            <p class="mensajes">
+                                <img src="Imagenes/icon.png" alt="perfil" class="foto" width="50" height="50" style="border-radius: 10%;">
+                                Chat 4
+                            </p>
+                            <p class="mensajes">
+                                <img src="Imagenes/icon.png" alt="perfil" class="foto" width="50" height="50" style="border-radius: 10%;">
+                                Chat 5
+                            </p>
+                        </div>
+                    <div class="col-9 mensaje">
+                        <div class="profesor">
+                            Mensaje profesor
+                        </div>
+                        <div class="propio">
+                            Mensaje propio
+                        </div>
+                    </div>
+                        <div class="enviar">
+                            <input class="texto" placeholder="Escribe un texto">
+                            <button class="btn btn-outline-secondary" type="submit">Enviar</button>
+                        </div>
+                </div>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
