@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/bootstrapCSS/bootstrap.min.css">
+    <link rel="stylesheet" href="CSS/kardex.css">
+    <link rel="icon" href="Imagenes/brain.png">
+    <title>Kardex</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-gray">
+        <div class="container-fluid">
+          <img src="Imagenes/brain.png" alt="" width="30" height="30">
+          <a class="navbar-brand" href="#">Mercury</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="perfil.html">Mi perfil</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="login.html">Cerrar sesión</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Buscar Cursos
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="Busqueda.html">Generales</a></li>
+                  <li><a class="dropdown-item" href="#">Arte</a></li>
+                  <li><a class="dropdown-item" href="#">Matemáticas</a></li>
+                  <li><a class="dropdown-item" href="#">Programación</a></li>
+                  <li><a class="dropdown-item" href="#">Marketing</a></li>
+                  <li><a class="dropdown-item" href="#">Diseño</a></li>
+                </ul>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Buscar">
+              <button class="btn btn-outline-secondary" type="submit">Buscar</button>
+            </form>
+          </div>
+        </div>
+    </nav>
+
+    <h1>Kardex</h1>
+
+    <section>
+        <div class="container my-3">
+            <div class="row">
+              <div class="col-auto ms-auto">
+                <!-- Barra de Filtros -->
+                <div class="d-flex flex-wrap align-items-center gap-3">
+                  <!-- Rango de Fechas -->
+                  <div>
+                    <label for="fecha1" class="form-label subtitulos">Fecha Inicio</label>
+                    <input type="date" id="fecha1" class="form-control">
+                  </div>
+                  <div>
+                    <label for="fecha2" class="form-label subtitulos" >Fecha Fin</label>
+                    <input type="date" id="fecha2" class="form-control">
+                  </div>
+          
+                  <!-- Select -->
+                  <div>
+                    <label for="categoriaID" class="form-label subtitulos">Categoría</label>
+                    <select id="categoriaID" class="form-select">
+                      <option selected>Todas</option>
+                      <option value="1">Matematicas</option>
+                      <option value="2">Arte</option>
+                    </select>
+                  </div>
+          
+                  <!-- Casillas de Verificación -->
+                  <div class="d-flex align-items-center">
+                    <div class="form-check me-3">
+                      <input type="checkbox" class="form-check-input" id="activosBox">
+                      <label class="form-check-label subtitulos" for="activosBox">Solo activos</label>
+                    </div>
+                    <div class="form-check">
+                      <input type="checkbox" class="form-check-input" id="complBox">
+                      <label class="form-check-label subtitulos" for="complBox">Solo completados</label>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        
+        <div class="container">  
+            <div class="table-responsive">
+                        <table class="table">
+                            <thead>
+                            <tr>
+                                <th scope="col">Num.</th>
+                                <th scope="col">Nombre de curso</th>
+                                <th scope="col">Categoria</th>
+                                <th scope="col">Estatus de curso</th>
+                                <th scope="col">Fecha de inscripcion</th>
+                                <th scope="col">Ultima fecha</th>
+                                <th scope="col">Niveles tomados</th>
+                                <th scope="col">Niveles totales</th>
+                                <th scope="col">Diploma</th>
+                            </tr>
+                            </thead>
+                            <tbody>
+                            <tr>
+                                    <th>1</th>
+                                    <th>Calculo</th>
+                                    <th>Matematicas</th>
+                                    <th>Activo</th>
+                                    <th>12/12/12</th>
+                                    <th>13/12/12</th>
+                                    <th>4</th>
+                                    <th>5</th>
+                                    <th></th>
+                            </tr>
+                            <tr>
+                                <th>1</th>
+                                <th>Illustrator 2022</th>
+                                <th>Arte</th>
+                                <th>Inactivo</th>
+                                <th>01/12/12 </th>
+                                <th>01/12/12 </th>
+                                <th>8</th>
+                                <th>8</th>
+                                <th><a href="Kardex.html" target="_blank">Ver Diploma</a></th>
+                            </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>        
+    </section>
+</body>
+</html>

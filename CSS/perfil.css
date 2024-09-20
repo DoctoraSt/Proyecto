@@ -36,3 +36,12 @@ footer{
     justify-content: center;
     flex-direction: row;
 }
+
+a{
+    color: #402F2F;
+    text-decoration: none;
+}
+
+a:hover{
+    color: #F2F2F2;
+}

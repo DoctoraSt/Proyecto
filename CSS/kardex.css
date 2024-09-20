@@ -1,0 +1,44 @@
+body{
+    background-color: #f2f2f2;
+}
+h1{
+    color:#402F2F;
+    text-align: center;
+}
+
+.container > tr{
+    background-color: #D989B5;;
+}
+
+tbody th {
+    color: #402F2F;
+    font-weight: normal; /* Cambia el peso de la fuente a normal solo para <th> dentro de <tbody> */
+  }
+
+  a {
+    text-decoration: underline; /* Aplica subrayado a todos los enlaces en la página */
+  }
+
+  .cardMg{
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+
+  body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #402F2F;
+    font-weight:200;
+  }
+
+  .table th,
+  .table td {
+    text-align: center; /* Centra el texto horizontalmente */
+    vertical-align: middle; /* Centra el contenido verticalmente */
+  }
+
+  
+   .colCurso{
+   border-top: 3px solid #402F2F; 
+}
+
+  
