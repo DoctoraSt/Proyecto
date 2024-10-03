@@ -30,6 +30,7 @@ a:hover{
 input{
     border-radius: 10px ;
     border: none;
+    height: 6%;
 }
 
 label{
