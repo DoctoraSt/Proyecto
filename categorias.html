@@ -54,52 +54,58 @@
 
     <form>
         <h3>Búsqueda Avanzada</h3>
-        <div class="begin">
-            <p>Categoría</p>
-            <input type="text" id="categoria" placeholder="Categoría">
-            <p for="">Descripción del curso</p>
-            <input type="text" id="descripcion_curso" placeholder="Descripción del curso" disabled>
-            <p for="">Cantidad de cursos disponibles</p>
-            <input type="number" id="cantidad_cursos" placeholder="Cantidad" disabled>
-            <p for="">Subcategorías</p>
-            <input type="text" id="Subcategorías" placeholder="Subcategorías">
+        <div class="behind">
+            <div class="begin">
+                    <p>Categoría</p>
+                    <input type="text" id="categoria" placeholder="Categoría">
+                    <p for="">Descripción del curso</p>
+                    <input type="text" id="descripcion_curso" placeholder="Descripción del curso" disabled>
+                    <p for="">Cantidad de cursos disponibles</p>
+                    <input type="number" id="cantidad_cursos" placeholder="Cantidad" disabled>
+                    <p for="">Subcategorías</p>
+                    <input type="text" id="Subcategorías" placeholder="Subcategorías">
+                <p for="">Calificación</p>
+                <div class="star">
+                    <p class="clasificacion">
+                        <input id="radio1" type="radio" name="estrellas" value="5">
+                        <label for="radio1">★</label>
+                        <input id="radio2" type="radio" name="estrellas" value="4">
+                        <label for="radio2">★</label>
+                        <input id="radio3" type="radio" name="estrellas" value="3">
+                        <label for="radio3">★</label>
+                        <input id="radio4" type="radio" name="estrellas" value="2">
+                        <label for="radio4">★</label>
+                        <input id="radio5" type="radio" name="estrellas" value="1">
+                        <label for="radio5">★</label>
+                    </p>
+                </div>
+                <p>Duración de los cursos</p>
+                <select class="form-select" id="tiempo_cursos">
+                    <option selected>Tiempo de cursos</option>
+                    <option value="1">4 horas</option>
+                    <option value="2">6 horas</option>
+                    <option value="3">8 horas</option>
+                    <option value="4">12 horas</option>
+                </select>
+                <p>Nivel de dificultad</p>
+                <select class="form-select" id="numFields">
+                    <option selected>Nivel de dificultad</option>
+                    <option value="1">Principiante</option>
+                    <option value="2">Intermedio</option>
+                    <option value="3">Avanzado</option>
+                </select>
+                <p>Precio</p>
+                <select class="form-select" id="numFields">
+                    <option selected>Precio</option>
+                    <option value="1">Gratuito</option>
+                    <option value="2">Pago</option>
+                </select>
+                <br>
+                <button type="submit">Buscar</button>
+                <br>
+                <button>Cancelar</button>
+            </div>
         </div>
-        <p for="">Calificación</p>
-        <div class="star">
-            <p class="clasificacion">
-                <input id="radio1" type="radio" name="estrellas" value="5">
-                <label for="radio1">★</label>
-                <input id="radio2" type="radio" name="estrellas" value="4">
-                <label for="radio2">★</label>
-                <input id="radio3" type="radio" name="estrellas" value="3">
-                <label for="radio3">★</label>
-                <input id="radio4" type="radio" name="estrellas" value="2">
-                <label for="radio4">★</label>
-                <input id="radio5" type="radio" name="estrellas" value="1">
-                <label for="radio5">★</label>
-            </p>
-        </div>
-        <p>Duración de los cursos</p>
-        <select class="form-select" id="tiempo_cursos">
-            <option selected>Tiempo de cursos</option>
-            <option value="1">4 horas</option>
-            <option value="2">6 horas</option>
-            <option value="3">8 horas</option>
-            <option value="4">12 horas</option>
-        </select>
-        <p>Nivel de dificultad</p>
-        <select class="form-select" id="numFields">
-            <option selected>Nivel de dificultad</option>
-            <option value="1">Principiante</option>
-            <option value="2">Intermedio</option>
-            <option value="3">Avanzado</option>
-        </select>
-        <p>Precio</p>
-        <select class="form-select" id="numFields">
-            <option selected>Precio</option>
-            <option value="1">Gratuito</option>
-            <option value="2">Pago</option>
-        </select>
     </form>
 
         <!-- Agregar este pedo de Bootstrap JavaScript y Popper.js -->
