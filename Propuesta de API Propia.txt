@@ -1,0 +1,3 @@
+La propuesta para la APi de este semestre es la siguiente
+
+Se planea usar una APi para que el Administrador envie un insert a la base de datos para generar una nueva categoría en caso de ser necesario
