@@ -24,16 +24,18 @@
                     <input type="number" name="telefono" id="telefono" placeholder="Teléfono">
                     <label for="">Fecha de nacimiento:</label>
                     <input type="date" name="fecha_nacimiento" id="fecha_nacimiento">
-                    <label for="">Género:</label>
-                    <input type="text" name="genero" id="genero" placeholder="Género">
                 </div>
                 <div class="col">
                     <label for="">Contraseña:</label>
                     <input type="password" name="contraseña" id="contraseña" placeholder="Contraseña">
                     <label for="">Fecha de nacimiento:</label>
                     <input type="date" name="fecha_nacimiento" id="fecha_nacimiento">
-                    <label for="">Género:</label>
-                    <input type="text" name="genero" id="genero" placeholder="Género">
+                    <label for="">Género</label>
+                    <select name="Género" id="genero">
+                        <option selected>Seleccionar el género</option>
+                        <option value="1">Femenino</option>
+                        <option value="2">Masculino</option>
+                    </select>
                     <label for="">Selecciona una imagen:</label>
                     <input type="file" name="imagen" id="imagen">
                     <label for="">Tipo de cuenta:</label>
@@ -47,9 +49,7 @@
                     <br>
                     <button type="submit">Aceptar</button>
                     <br>
-                    <a href="login.html">
-                        <button>Cancelar</button>
-                    </a>
+                    <button><a href="login.html">Cancelar</a></button>
                     <br>
                     <p>¿Ya tienes cuenta?
                         <a href="login.html">Iniciar sesión</a>

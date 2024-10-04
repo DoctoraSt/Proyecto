@@ -5,7 +5,7 @@ body{
 .registro{
   display: flex;
   flex-direction: column;
-  background-color: #D989B5;
+  background-color: #f29faebf;  
   box-shadow: 3px 3px 3px #F294A5;
   margin: 3%;
   padding: 3%;
@@ -38,24 +38,24 @@ p{
 }
 
 button{
-  color: #FFFF;
-  background-color: #F294A5;
+  color: #402F2F;
+  background-color: #D989B5;
   border-radius: 10px;
   border: none;
 }
 
 button:hover{
   color: #f2f2f2;
-  background-color: #402f2f44;
+  background-color: #402F2F44;
 }
 
 a{
-  color: #FFFF;
+  color: #402F2F;
   text-decoration: none;
 }
 
 a:hover{
-  color: #402F2F;
+  color: #FFFF;
 }
 
 .pie2{
